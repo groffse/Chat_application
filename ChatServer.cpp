@@ -77,7 +77,7 @@ DWORD WINAPI rcv_msg(LPVOID params) {
 
 int main()
 {
-	// -------------------------------------THREAD VARIABLES----------------------------------------
+	// -------------------------------------MULTITHREAD VARIABLES----------------------------------------
 	CLIENTDATA 	myClientData = new ThreadData();
 	HANDLE		hThreadArray[MAX_CLIENTS];
 	DWORD		dwThreadIdArray[MAX_CLIENTS];
