@@ -26,7 +26,7 @@
 #define DEFAULT_BUFLEN 512
 #define DEFAULT_PORT "27015"
 
-#define MAX_CLIENTS 3
+#define MAX_CLIENTS 5
 
 // Struct that holds clientsockets and clientID's
 typedef struct ThreadData {
